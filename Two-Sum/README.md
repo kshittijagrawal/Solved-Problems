@@ -1,6 +1,8 @@
 # Two Sum
 ## Tag
-**Easy**
+[x] Easy
+[ ] Medium
+[ ] Hard
   
 
 ## Prompt

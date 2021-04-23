@@ -36,6 +36,5 @@ Output: [0,1]
 ## Complexities
 * The **Time Complexity** for the implementation : Linear
   * Runtime : **40 ms**  
-  
 * The **Space Complexity** for the implementation : Linear
   * Memory : **14.3 mb**

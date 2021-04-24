@@ -1,4 +1,4 @@
-# Two Sum
+# Reverse Integer
 ## Tag
 - [x] Easy  
 - [ ] Medium  

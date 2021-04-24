@@ -1,4 +1,4 @@
-# Regular Expression MAtching
+# Regular Expression Matching
 ## Tag
 - [ ] Easy  
 - [ ] Medium  

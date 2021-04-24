@@ -91,7 +91,7 @@ Since -91283472332 is less than the lower bound of the range [-2^31, 2^31 - 1], 
   
 ## Constraints
 * 0 <= `s.length` <= 200
-* `s` consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'  
+* `s` consists of English letters (`lower-case` and `upper-case`), digits `(0-9)`, `' '`, `'+'`, `'-'`, and `'.'`  
   
 ## Complexities
 * The **Time Complexity** for the implementation : Linear

@@ -1,6 +1,6 @@
 # Reverse Integer
 ## Tag
-- [x] Easy  
+- [x] **Easy**  
 - [ ] Medium  
 - [ ] Hard  
   
@@ -29,7 +29,7 @@ Output: 0
 ```
   
 ## Constraints
-* -231 <= x <= 231 - 1  
+* -2^31 <= `x` <= 2^31 - 1  
   
 ## Complexities
 * The **Time Complexity** for the implementation : Linear

@@ -1,6 +1,6 @@
 # Two Sum
 ## Tag
-- [x] Easy  
+- [x] **Easy**  
 - [ ] Medium  
 - [ ] Hard  
   
@@ -10,7 +10,7 @@ Given an array of integers `nums` and an integer `target`, return *indices of th
 
 You may assume that each input would have **exactly one solution**, and you may not use the *same* element twice.  
 
-You can return the answer in any order.  
+You can return the answer **in any order**.  
   
 ## Examples
 ```
@@ -28,9 +28,9 @@ Output: [0,1]
 ```
   
 ## Constraints
-* 2 <= nums.length <= 103
-* -109 <= nums[i] <= 109
-* -109 <= target <= 1098
+* 2 <= `nums.length` <= 103
+* -109 <= `nums[i]` <= 109
+* -109 <= `target` <= 1098
 * **Only one valid answer exists**.
   
 ## Complexities

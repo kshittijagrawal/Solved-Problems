@@ -1,4 +1,4 @@
-# Pow(x,n)
+# Palindrome Number
 ## Tag
 - [x] **Easy**  
 - [ ] Medium  

@@ -7,7 +7,7 @@
 
 ## Prompt
 Given an unsorted integer array `nums`, find the smallest missing positive integer.  
-**Follow Up** : Could you implement an algorithm that runs in O(n) time and uses constant extra space? 
+**Follow Up** : Could you implement an algorithm that **runs in O(n) time** and **uses constant extra space**? 
   
 ## Examples
 ```
@@ -25,7 +25,7 @@ Output: 1
   
 ## Constraints
 * 1 <= `nums.length` <= 300
-* -231 <= `nums[i]` <= 231 - 1
+* -2^31 <= `nums[i]` <= 2^31 - 1
   
 ## Complexities
 * The **Time Complexity** for the implementation : Linear

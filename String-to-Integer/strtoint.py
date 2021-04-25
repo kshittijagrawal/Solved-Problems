@@ -1,4 +1,3 @@
-import re
 class Solution:
     def myAtoi(self, s):
         num = ""

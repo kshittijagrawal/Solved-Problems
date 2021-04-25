@@ -11,6 +11,8 @@ Given n non-negative integers `a1, a2, ..., an` , where each represents a point 
 **Notice** that you may not slant the container.
   
 ## Examples
+![question_11](https://user-images.githubusercontent.com/74072261/116006762-3f8d6380-a62a-11eb-83da-8ca76f0347a9.jpg)
+
 ```
 Input: height = [1,8,6,2,5,4,8,3,7]
 Output: 49

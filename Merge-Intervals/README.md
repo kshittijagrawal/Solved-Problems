@@ -6,7 +6,7 @@
   
 
 ## Prompt
-Given an array of `intervals` where `intervals[i] = [start<sub>i</sub>, end<sub>i</sub>]`, merge all overlapping intervals, and *return an array of the non-overlapping intervals that cover all the intervals in the input*.
+Given an array of `intervals` where `intervals[i]` = **[start<sub>i</sub>, end<sub>i</sub>]**, merge all overlapping intervals, and *return an array of the non-overlapping intervals that cover all the intervals in the input*.
   
 ## Examples
 ```
@@ -21,9 +21,9 @@ Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 ```
   
 ## Constraints
-* 1 <= `intervals.length` <= 10<sup>4</sup>
-* `intervals[i].length` == 2
-* 0 <= `start<sub>i</sub> <= end<sub>i</sub>` <= 10<sup>4</sup>
+* 1 <= **intervals.length** <= 10<sup>4</sup>
+* **intervals[i].length** == 2
+* 0 <= **start<sub>i</sub>** <= **end<sub>i</sub>** <= 10<sup>4</sup>
   
 ## Complexities
 * The **Time Complexity** for the implementation : NLogN

@@ -25,8 +25,8 @@ Output: 1
 ```
   
 ## Constraints
-* 1 <= `nums.length` <= 300
-* -2^31 <= `nums[i]` <= 2^31 - 1
+* 1 <= **nums.length** <= 300
+* -2<sup>31</sup> <= **nums[i]** <= 2<sup>31</sup> - 1
   
 ## Complexities
 * The **Time Complexity** for the implementation : Linear

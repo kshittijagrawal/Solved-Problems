@@ -31,8 +31,8 @@ Output: 0
 ```
   
 ## Constraints
-* 0 <= `haystack.length`, `needle.length` <= 5 * 10^4
-* `haystack` and `needle` consist of only lower-case English characters.
+* 0 <= **haystack.length**, **needle.length** <= 5 * 10<sup>4</sup>
+* **haystack** and **needle** consist of only lower-case English characters.
   
 ## Complexities
 * The **Time Complexity** for the implementation : Linear

@@ -6,7 +6,7 @@
   
 
 ## Prompt
-Implement `pow(x, n)`, which calculates `x` raised to the power `n` (i.e., **x^n**).  
+Implement `pow(x, n)`, which calculates `x` raised to the power `n` (i.e., **x<sup>n</sup>**).  
     
 ## Examples
 ```
@@ -24,9 +24,9 @@ Explanation: 2^-2 = 1/2^2 = 1/4 = 0.25
 ```
   
 ## Constraints
-* -100.0 < `x` < 100.0
-* -2^31 <= `n` <= 2^31-1
-* -10^4 <= `x^n` <= 10^4  
+* -100.0 < **x** < 100.0
+* -2<sup>31</sup> <= **n** <= 2<sup>31</sup>-1
+* -10<sup>4</sup> <= **x<sup>n</sup>** <= 10<sup>4</sup>  
   
 ## Complexities
 * The **Time Complexity** for the implementation : Linear

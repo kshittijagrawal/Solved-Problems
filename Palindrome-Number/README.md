@@ -31,7 +31,7 @@ Output: false
 ```
   
 ## Constraints
-* -2^31 <= `x` <= 2^31 - 1
+* -2<sup>31</sup> <= **x** <= 2<sup>31</sup> - 1
   
 ## Complexities
 * The **Time Complexity** for the implementation : Linear

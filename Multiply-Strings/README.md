@@ -21,9 +21,9 @@ Output: "56088"
 ```
   
 ## Constraints
-* 1 <= `num1.length`, `num2.length` <= 200
-* `num1` and `num2` consist of digits only.
-* Both `num1` and `num2` do not contain any leading zero, *except the number **_0_** itself*.
+* 1 <= **num1.length**, **num2.length** <= 200
+* **num1** and **num2** consist of digits only.
+* Both **num1** and **num2** do not contain any leading zero, **except the number 0 itself**.
   
 ## Complexities
 * The **Time Complexity** for the implementation : Linear

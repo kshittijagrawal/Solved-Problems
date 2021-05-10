@@ -6,7 +6,7 @@
   
 
 ## Prompt
-Implement `pow(x, n)`, which calculates `x` raised to the power `n` (i.e., **x<sup>n</sup>**).  
+Implement `pow(x, n)`, which calculates `x` raised to the power `n` (i.e. **x<sup>n</sup>**).  
     
 ## Examples
 ```
@@ -20,7 +20,7 @@ Output: 9.26100
 ```
 Input: x = 2.00000, n = -2
 Output: 0.25000
-Explanation: 2^-2 = 1/2^2 = 1/4 = 0.25
+Explanation: 2<sup>-2</sup> = 1/2<sup>2</sup> = 1/4 = 0.25
 ```
   
 ## Constraints

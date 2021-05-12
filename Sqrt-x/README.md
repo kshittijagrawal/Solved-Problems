@@ -25,7 +25,7 @@ Explanation: The square root of 8 is 2.82842..., and since the decimal part is t
 * 0 <= **x** <= 2<sup>31</sup> - 1  
   
 ## Complexities
-* The **Time Complexity** for the implementation : Log(N)
+* The **Time Complexity** for the implementation : Log(n)
   * Runtime : **36 ms**  
 * The **Space Complexity** for the implementation : Constant
   * Memory : **14.1 mb**

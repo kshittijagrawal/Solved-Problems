@@ -31,9 +31,9 @@ Explanation: Your function should return length = 5, with the first five element
 ```
   
 ## Constraints
-* 0 <= `nums.length` <= 100
-* 0 <= `nums[i]` <= 50
-* 0 <= `val` <= 100
+* 0 <= **nums.length** <= 100
+* 0 <= **nums[i]** <= 50
+* 0 <= **val** <= 100
   
 ## Complexities
 * The **Time Complexity** for the implementation : Linear

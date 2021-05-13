@@ -29,11 +29,11 @@ Output: -1
 ```
   
 ## Constraints
-* 1 <= `nums.length` <= 5000
-* -10^4 <= `nums[i]` <= 10^4
-* All values of `nums` are **unique**.
-* `nums` is guaranteed to be rotated at some pivot.
-* -10^4 <= `target` <= 10^4
+* 1 <= **nums.length** <= 5000
+* -10<sup>4</sup> <= **nums[i]** <= 10<sup>4</sup>
+* All values of **nums** are **unique**.
+* **nums** is guaranteed to be rotated at some pivot.
+* -10<sup>4</sup> <= **target** <= 10<sup>4</sup>
   
 ## Complexities
 * The **Time Complexity** for the implementation : Log(n)

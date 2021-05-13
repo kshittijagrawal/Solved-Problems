@@ -28,9 +28,9 @@ Explanation: Your function should return length = 5, with the first five element
 ```
   
 ## Constraints
-* 0 <= `nums.length` <= 3 * 10^4
-* -10^4 <= `nums[i]` <= 10^4
-* `nums` is sorted in ascending order.
+* 0 <= **nums.length** <= 3 * 10^4
+* -10<sup>4</sup> <= **nums[i]** <= 10<sup>4</sup>
+* **nums** is sorted in ascending order.
   
 ## Complexities
 * The **Time Complexity** for the implementation : Linear

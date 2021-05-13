@@ -39,11 +39,11 @@ Output: false
 ```
   
 ## Constraints
-* 0 <= `s.length` <= 20
-* 0 <= `p.length` <= 30
+* 0 <= **s.length** <= 20
+* 0 <= **p.length** <= 30
 * s contains **only lowercase** English letters.
-* p contains **only lowercase** English letters, `'.'`, and `'*'`.
-* It is guaranteed for each appearance of the character `'*'`, **there will be a previous valid character to match**.
+* p contains **only lowercase** English letters, **'.'**, and **'*'**.
+* It is guaranteed for each appearance of the character **'*'**, **there will be a previous valid character to match**.
   
 ## Complexities
 * The **Time Complexity** for the implementation : Unbound (since here we're using **regex**)

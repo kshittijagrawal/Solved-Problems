@@ -31,10 +31,10 @@ Output: 0
 ```
   
 ## Constraints
-* 1 <= `nums.length` <= 10^4
-* -10^4 <= `nums[i]` <= 10^4
-* `nums` contains distinct values sorted in ascending order.
-* -10^4 <= `target` <= 10^4
+* 1 <= **nums.length** <= 10<sup>4</sup>
+* -10<sup>4</sup> <= **nums[i]** <= 10<sup>4</sup>
+* **nums** contains distinct values sorted in ascending order.
+* -10<sup>4</sup> <= **target** <= 10<sup>4</sup>
   
 ## Complexities
 * The **Time Complexity** for the implementation : Log(n)

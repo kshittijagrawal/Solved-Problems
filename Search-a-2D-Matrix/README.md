@@ -31,7 +31,7 @@ Output: false
 * -10<sup>4</sup> <= **matrix[i][j], target** <= 10<sup>4</sup>.
   
 ## Complexities
-* The **Time Complexity** for the implementation : nLogn
+* The **Time Complexity** for the implementation : Log(n)
   * Runtime : **40 ms**  
 * The **Space Complexity** for the implementation : Constant
   * Memory : **14.7 mb**

@@ -9,6 +9,8 @@
 Given an integer `numRows`, return the **first numRows** of Pascal's triangle.  
   
 In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
+
+![PascalTriangleAnimated2](https://user-images.githubusercontent.com/74072261/118404121-29098380-b68f-11eb-9722-1e6af5d8db65.gif)
   
 ## Examples
 ```

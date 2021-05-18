@@ -2,4 +2,9 @@
 The repository contains a set of problems solved by me on [LeetCode](https://www.leetcode.com), **particularly using _Python_**. While a few of the approaches involve the typical methodology used to solve the particular type of problems, the others involve observation and personal implementation.  
 
 *This could help acing the coding interview*.  
-Happy Coding!
+
+## Stats
+  
+Easy | Medium | Hard | Total
+-----|--------|------|------
+ 16 | 17 | 2 | 35

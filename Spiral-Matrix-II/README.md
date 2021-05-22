@@ -6,7 +6,7 @@
   
 
 ## Prompt
-Given a positive integer `n`, generate an `n x n` matrix filled with elements from `1` to n<sup>2</sup> in **spiral order**.  
+Given a positive integer `n`, generate an `n x n` matrix filled with elements from **1** to **n<sup>2</sup>** in **spiral order**.  
     
 ## Examples
 ```

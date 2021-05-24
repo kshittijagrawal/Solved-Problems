@@ -1,4 +1,4 @@
-# Remove Duplicates From Sorted List
+# Remove Duplicates from Sorted List
 ## Tag
 - [x] **Easy**  
 - [ ] Medium 
@@ -9,14 +9,17 @@
 Given the `head` of a sorted **linked list**, delete all duplicates such that each element **appears only once**. *Return the linked list sorted as well*.  
       
 ## Examples
-  
+
+![list1](https://user-images.githubusercontent.com/74072261/119388956-95683080-bce8-11eb-9bef-bead94e6a05b.jpg)
 ```
 Input: head = [1,1,2]
 Output: [1,2]
 ```
+
+![list2](https://user-images.githubusercontent.com/74072261/119388970-9ac57b00-bce8-11eb-9180-b4d852476c64.jpg)
 ```
-Input: head = [1,1,2]
-Output: [1,2]
+Input: head = [1,1,2,3,3]
+Output: [1,2,3]
 ```
   
 ## Constraints

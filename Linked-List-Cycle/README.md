@@ -15,17 +15,22 @@ Return `true` if there is a cycle in the linked list. Otherwise, return `false`.
 **Follow up**: Can you solve it using **O(1)** (i.e. constant) **memory**?  
   
 ## Examples
-  
+
+![1](https://user-images.githubusercontent.com/74072261/119390260-6783eb80-bcea-11eb-85e0-9ca5cacdce12.png)
 ```
 Input: head = [3,2,0,-4], pos = 1
 Output: true
 Explanation: There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).
 ```
+
+![2](https://user-images.githubusercontent.com/74072261/119390277-6d79cc80-bcea-11eb-827b-52c70d4d272f.png)
 ```
 Input: head = [1,2], pos = 0
 Output: true
 Explanation: There is a cycle in the linked list, where the tail connects to the 0th node.
 ```
+
+![3](https://user-images.githubusercontent.com/74072261/119390285-71a5ea00-bcea-11eb-8399-cb4dc27627a8.png)
 ```
 Input: head = [1], pos = -1
 Output: false

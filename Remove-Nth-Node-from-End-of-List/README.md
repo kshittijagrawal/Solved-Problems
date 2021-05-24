@@ -12,11 +12,11 @@ Given the `head` of a linked list, remove the **nth node from the end** of the l
   
 ## Examples
 
+![remove_ex1](https://user-images.githubusercontent.com/74072261/119410444-7bd5e180-bd06-11eb-97c4-47f3aa4a9206.jpg)
 ```
 Input: head = [1,2,3,4,5], n = 2
 Output: [1,2,3,5]
 ```
-
 ```
 Input: head = [1], n = 1
 Output: []

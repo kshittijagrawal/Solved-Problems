@@ -12,6 +12,7 @@ You may assume the two numbers **do not contain any leading zero**, except the n
   
 ## Examples
 
+![addtwonumber1](https://user-images.githubusercontent.com/74072261/119883926-b4b3c780-bf4d-11eb-851e-026557260075.jpg)
 ```
 Input: l1 = [2,4,3], l2 = [5,6,4]
 Output: [7,0,8]

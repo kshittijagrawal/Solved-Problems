@@ -1,3 +1,4 @@
+[Discussion Post (created on 28/4/2021 at 18:14)](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/discuss/1236230/Python3-2-Solutions-%3A-Swapping-values-and-Swapping-Nodes.)  
 <h2>1721. Swapping Nodes in a Linked List</h2><h3>Medium</h3><hr><div><p>You are given the <code>head</code> of a linked list, and an integer <code>k</code>.</p>
 
 <p>Return <em>the head of the linked list after <strong>swapping</strong> the values of the </em><code>k<sup>th</sup></code> <em>node from the beginning and the </em><code>k<sup>th</sup></code> <em>node from the end (the list is <strong>1-indexed</strong>).</em></p>

@@ -18,9 +18,5 @@ class Solution:
                 curr2 = curr2.next
             rescurr = rescurr.next
         
-        toeval = curr1 if curr2 is None else curr2
-        while toeval:
-            rescurr.next = ListNode(toeval.val)
-            rescurr, toeval = rescurr.next, toeval.next
-        
+        rescurr.next = curr1 if curr2 is None else curr2
         return res.next

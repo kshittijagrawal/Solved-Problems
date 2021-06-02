@@ -7,4 +7,4 @@ The repository contains a set of problems solved by me on [LeetCode](https://www
   
 Easy | Medium | Hard | Total
 -----|--------|------|------
- 25 | 31 | 5 | 61
+ 28 | 33 | 5 | 66

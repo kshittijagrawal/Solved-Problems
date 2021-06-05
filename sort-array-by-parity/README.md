@@ -1,3 +1,4 @@
+[Discussion Post (created on 5/5/2021 at 21:20)](https://leetcode.com/problems/sort-array-by-parity/discuss/1253021/Python3-Linear-Time-and-Constant-Space.)  
 <h2>905. Sort Array By Parity</h2><h3>Easy</h3><hr><div><p>Given an array <code>nums</code> of non-negative integers, return an array consisting of all the even elements of <code>nums</code>, followed by all the odd elements of <code>nums</code>.</p>
 
 <p>You may return any answer array that satisfies this condition.</p>

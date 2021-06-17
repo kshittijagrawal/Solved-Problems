@@ -30,17 +30,10 @@ class Solution:
             else:
                 count, end = count+1, end.next
         
-        if len(arr) == 1:
-             return arr[0]
-        res = arr[0]
+        res = ListNode(0)
         rescurr = res
-        while rescurr.next:
-            rescurr = rescurr.next
-            
-        for group in arr[1:-1]:
+        for group in arr:
             rescurr.next = group
             while rescurr.next:
                 rescurr = rescurr.next
-
-        rescurr.next = arr[-1]
-        return res
+        return res.next

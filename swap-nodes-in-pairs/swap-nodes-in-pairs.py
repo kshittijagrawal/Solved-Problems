@@ -7,25 +7,16 @@ class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
         if head is None or head.next is None:
             return head
-        
         first, second = head, head.next
-        first.next = second.next
-        second.next = first
-        head = second
+        first.next, second.next, head = second.next, first, second
         if first.next is None or first.next.next is None:
             return head
         
-        prevf, currf = first, first.next
-        while currf.next and currf.next.next:
-            temp = currf.next.next
-            prevf.next = currf.next
-            currf.next.next = currf
-            currf.next = temp
-            prevf, currf = currf, currf.next
+        prev, curr = first, first.next
+        while curr and curr.next:
+            prev.next = curr.next
+            curr.next = curr.next.next
+            prev.next.next = curr
+            prev, curr = prev.next.next, curr.next
         
-        if currf.next is None:
-            return head
-        prevf.next = currf.next
-        currf.next.next = currf
-        currf.next = None
         return head

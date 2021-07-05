@@ -1,3 +1,4 @@
+[Discussion Post (created on 6/6/2021 at 0:30)](https://leetcode.com/problems/reshape-the-matrix/discuss/1318455/Python3-Intuitive-Solution.)  
 <h2>566. Reshape the Matrix</h2><h3>Easy</h3><hr><div><p>In MATLAB, there is a handy function called <code>reshape</code>&nbsp;which can reshape an <code>m x n</code> matrix into a new one with a different size <code>r x c</code>&nbsp;keeping its original data.</p>
 
 <p>You are given an <code>m x n</code>&nbsp;matrix <code>mat</code> and two integers <code>r</code> and <code>c</code> representing the row number and column number of the wanted reshaped matrix.</p>

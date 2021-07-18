@@ -1,3 +1,4 @@
+[Discussion Post (created on 18/6/2021 at 18:46)](https://leetcode.com/problems/reverse-nodes-in-k-group/discuss/1346162/Python3-Time-Efficient-Solution.)  
 <h2>25. Reverse Nodes in k-Group</h2><h3>Hard</h3><hr><div><p>Given a linked list, reverse the nodes of a linked list <em>k</em> at a time and return its modified list.</p>
 
 <p><em>k</em> is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of <em>k</em> then left-out nodes, in the end, should remain as it is.</p>

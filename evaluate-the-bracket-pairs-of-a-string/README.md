@@ -1,3 +1,4 @@
+[Discussion Post (created on 25/6/2021 at 1:43)](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/discuss/1360360/Python3-Linear-Complexity-Solution.)  
 <h2>1807. Evaluate the Bracket Pairs of a String</h2><h3>Medium</h3><hr><div><p>You are given a string <code>s</code> that contains some bracket pairs, with each pair containing a <strong>non-empty</strong> key.</p>
 
 <ul>

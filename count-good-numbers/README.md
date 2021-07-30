@@ -1,3 +1,4 @@
+[Discussion Post (created on 31/6/2021 at 0:58)](https://leetcode.com/problems/count-good-numbers/discuss/1373085/Python3-Purely-Mathematical-and-Play-bw-'**'-and-'pow()'.)  
 <h2>1922. Count Good Numbers</h2><h3>Medium</h3><hr><div><p>A digit string is <strong>good</strong> if the digits <strong>(0-indexed)</strong> at <strong>even</strong> indices are <strong>even</strong> and the digits at <strong>odd</strong> indices are <strong>prime</strong> (<code>2</code>, <code>3</code>, <code>5</code>, or <code>7</code>).</p>
 
 <ul>

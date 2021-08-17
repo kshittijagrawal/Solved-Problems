@@ -1,3 +1,4 @@
+[Discussion Post (created on 18/7/2021 at 0:14)](https://leetcode.com/problems/matrix-diagonal-sum/discuss/1409836/Python3-Linear-Time-and-Constant-Space.)  
 <h2>1572. Matrix Diagonal Sum</h2><h3>Easy</h3><hr><div><p>Given a&nbsp;square&nbsp;matrix&nbsp;<code>mat</code>, return the sum of the matrix diagonals.</p>
 
 <p>Only include the sum of all the elements on the primary diagonal and all the elements on the secondary diagonal that are not part of the primary diagonal.</p>

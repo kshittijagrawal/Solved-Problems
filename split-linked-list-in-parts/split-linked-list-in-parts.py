@@ -4,23 +4,24 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def splitListToParts(self, root: ListNode, k: int) -> List[ListNode]:
-        length, curr = 0, root
+    def splitListToParts(self, head: Optional[ListNode], k: int) -> List[Optional[ListNode]]:
+        length, curr = 0, head
         while curr:
             length += 1
             curr = curr.next
         
-        each, buffer = length//k, length%k
-        res, curr = [], root
-        
-        while k>0:
-            head, iterations = ListNode(0), each+1 if buffer>0 else each
-            headcurr = head
+        parts, extras = length // k, length % k
+        res = []
+        while head:
+            curr, prev = head, head
             
-            for i in range(iterations):
-                headcurr.next = ListNode(curr.val)
-                headcurr, curr = headcurr.next, curr.next
-            buffer, k = buffer-1, k-1
-            res.append(head.next)
-            
+            for i in range(parts + bool(extras)):
+                if i: prev = prev.next
+                head = head.next
+                
+            extras, prev.next, k = extras - 1, None, k - 1
+            if extras < 0: extras = 0
+            res.append(curr)
+
+        for _ in range(k): res.append(None)
         return res

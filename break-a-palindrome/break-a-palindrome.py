@@ -1,13 +1,17 @@
 class Solution:
     def breakPalindrome(self, palindrome: str) -> str:
-        if len(palindrome) == 1:
+        length = len(palindrome)
+        if length == 1:
             return ""
         
-        newp = list(palindrome)
-        for i in range(len(newp)//2):
-            if newp[i] != "a":
-                newp[i] = "a"
-                return "".join(newp)
+        arr = list(map(str, palindrome))
+        limit = length // 2 if length%2 == 0 else (length - 1) // 2
         
-        newp[-1] = "b"
-        return "".join(newp)
+        for i in range(limit):
+            if arr[i] != 'a':
+                arr[i] = 'a'
+                break
+        else:
+            arr[-1] = 'b'
+        
+        return "".join(arr)

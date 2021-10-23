@@ -1,3 +1,4 @@
+[Discussion Post (created on 24/9/2021 at 3:2)](https://leetcode.com/problems/find-the-middle-index-in-array/discuss/1537154/Python3-O(n)-Time-or-O(1)-Space.)  
 <h2>1991. Find the Middle Index in Array</h2><h3>Easy</h3><hr><div><p>Given a <strong>0-indexed</strong> integer array <code>nums</code>, find the <strong>leftmost</strong> <code>middleIndex</code> (i.e., the smallest amongst all the possible ones).</p>
 
 <p>A <code>middleIndex</code> is an index where <code>nums[0] + nums[1] + ... + nums[middleIndex-1] == nums[middleIndex+1] + nums[middleIndex+2] + ... + nums[nums.length-1]</code>.</p>

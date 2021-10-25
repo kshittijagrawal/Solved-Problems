@@ -4,10 +4,10 @@ class MinStack:
         self.stack = collections.deque()
 
     def push(self, val: int) -> None:
-        if not self.stack:
-            self.stack.append((val, val))
-        else:
+        if self.stack:
             self.stack.append((val, val) if val < self.stack[-1][1] else (val, self.stack[-1][1]))
+        else:
+            self.stack.append((val, val))
         
     def pop(self) -> None:
         self.stack.pop()
@@ -17,7 +17,6 @@ class MinStack:
 
     def getMin(self) -> int:
         return self.stack[-1][1]
-
 
 # Your MinStack object will be instantiated and called as such:
 # obj = MinStack()

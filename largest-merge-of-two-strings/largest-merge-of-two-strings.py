@@ -18,8 +18,10 @@ class Solution:
                     res.append(word2[ind2])
                     ind2 += 1
                     
-        res.append(word1[ind1:])
-        res.append(word2[ind2:])
+        for i in range(ind1, n1):
+            res.append(word1[i])
+        for i in range(ind2, n2):
+            res.append(word2[i])
             
         return "".join(res)
                 

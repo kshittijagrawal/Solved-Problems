@@ -1,3 +1,4 @@
+[Discussion Post (created on 30/9/2021 at 0:23)](https://leetcode.com/problems/maximum-product-difference-between-two-pairs/discuss/1547599/Python3-O(n)-Time-or-O(1)-Space)  
 <h2>1913. Maximum Product Difference Between Two Pairs</h2><h3>Easy</h3><hr><div><p>The <strong>product difference</strong> between two pairs <code>(a, b)</code> and <code>(c, d)</code> is defined as <code>(a * b) - (c * d)</code>.</p>
 
 <ul>

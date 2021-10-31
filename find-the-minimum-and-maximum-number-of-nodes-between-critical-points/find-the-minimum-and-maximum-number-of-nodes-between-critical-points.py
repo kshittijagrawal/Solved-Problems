@@ -20,4 +20,4 @@ class Solution:
             prev, curr = head.val, curr + 1
             head, ahead = head.next, ahead.next
         
-        return [currmin, last - first] if first and last and currmin != float("inf") else [-1, -1]
+        return [currmin, last - first] if currmin != float("inf") else [-1, -1]

@@ -1,3 +1,4 @@
+[Discussion Post (created on 11/10/2021 at 11:29)](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/discuss/1571462/Python3-O(n)-Time-or-Easy-Prefix-Sum)  
 <h2>1413. Minimum Value to Get Positive Step by Step Sum</h2><h3>Easy</h3><hr><div><p>Given an array of integers&nbsp;<code>nums</code>, you start with an initial <strong>positive</strong> value <em>startValue</em><em>.</em></p>
 
 <p>In each iteration, you calculate the step by step sum of <em>startValue</em>&nbsp;plus&nbsp;elements in <code>nums</code>&nbsp;(from left to right).</p>

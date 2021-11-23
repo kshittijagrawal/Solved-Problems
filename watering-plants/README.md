@@ -1,3 +1,4 @@
+[Discussion Post (created on 23/10/2021 at 20:51)](https://leetcode.com/problems/watering-plants/discuss/1592993/Python3-O(n)-Time-or-O(1)-Space.)  
 <h2>2079. Watering Plants</h2><h3>Medium</h3><hr><div><p>You want to water <code>n</code> plants in your garden with a watering can. The plants are arranged in a row and are labeled from <code>0</code> to <code>n - 1</code> from left to right where the <code>i<sup>th</sup></code> plant is located at <code>x = i</code>. There is a river at <code>x = -1</code> that you can refill your watering can at.</p>
 
 <p>Each plant needs a specific amount of water. You will water the plants in the following way:</p>

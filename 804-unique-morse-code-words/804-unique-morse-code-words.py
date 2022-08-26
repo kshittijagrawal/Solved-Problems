@@ -6,9 +6,9 @@ class Solution:
         container, s = {chr(97 + i) : code[i] for i in range(26)}, set()
         
         for word in words:
-            trans = []
+            trans = ""
             for c in word:
-                trans.append(container[c])
-            s.add("".join(trans))
+                trans += container[c]
+            s.add(trans)
             
         return len(s)

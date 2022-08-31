@@ -1,11 +1,8 @@
 class Solution:
     def findClosestNumber(self, nums: List[int]) -> int:
-        diff, cand = float("inf"), float("inf")
-        for num in nums:
-            if abs(num) < diff:
-                diff = abs(num)
-                cand = num
-            elif abs(num) == diff:
-                cand = num if num > cand else cand
+        cand = nums[0]
+        for i in range(1, len(nums)):
+            if abs(nums[i]) < abs(cand): cand = nums[i]
+            elif abs(nums[i]) == abs(cand): cand = nums[i] if nums[i] > cand else cand
         return cand
         

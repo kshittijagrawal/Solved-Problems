@@ -1,9 +1,6 @@
 class Solution:
     def findWords(self, words: List[str]) -> List[str]:
-        line1 = {c : 1 for c in "qwertyuiop"}
-        line2 = {c : 2 for c in "asdfghjkl"}
-        line3 = {c : 3 for c in "zxcvbnm"}
-        lines = line1 | line2 | line3
+        lines = {c : 1 for c in "qwertyuiop"} | {c : 2 for c in "asdfghjkl"} | {c : 3 for c in "zxcvbnm"}
         res = []
         
         for word in words:

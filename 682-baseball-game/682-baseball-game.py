@@ -1,14 +1,13 @@
-class Solution(object):
-    def calPoints(self, ops):
+class Solution:
+    def calPoints(self, operations: List[str]) -> int:
         stack = []
-        for op in ops:
-            if op == '+':
+        for o in operations:
+            if o == "+":
                 stack.append(stack[-1] + stack[-2])
-            elif op == 'C':
-                stack.pop()
-            elif op == 'D':
+            elif o == "D":
                 stack.append(2 * stack[-1])
+            elif o == "C":
+                g = stack.pop()
             else:
-                stack.append(int(op))
-
+                stack.append(int(o))
         return sum(stack)

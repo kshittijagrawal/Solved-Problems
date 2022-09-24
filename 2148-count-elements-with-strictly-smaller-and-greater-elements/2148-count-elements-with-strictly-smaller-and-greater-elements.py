@@ -8,7 +8,6 @@ class Solution:
         
         res = 0
         for num in nums:
-            if num != gmax and num != gmin:
-                res += 1
+            res += (num != gmin) and (num != gmax)
         
         return res

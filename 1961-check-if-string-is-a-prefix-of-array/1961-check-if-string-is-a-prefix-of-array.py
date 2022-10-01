@@ -8,4 +8,4 @@ class Solution:
                 return False
             ss = se
             if ss == l: return True
-        return True if ss == l else False
+        return False

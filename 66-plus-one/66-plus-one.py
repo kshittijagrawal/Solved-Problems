@@ -8,6 +8,8 @@ class Solution:
                 else:
                     digits[i] += carry
                     carry = 0
+            else:
+                break
         if carry:
             digits = [1] + digits
         return digits

@@ -11,13 +11,13 @@ class Solution:
                 if num[i] == currdigit:
                     currcount += 1
                 else:
-                    res.append(currcount)
+                    res.append(str(currcount))
                     res.append(currdigit)
                     currcount, currdigit = 1, num[i]
-            res.append(currcount)
+            res.append(str(currcount))
             res.append(currdigit)
             
-            return isSaid("".join(list(map(str, res))), curr + 1)
+            return isSaid("".join(res), curr + 1)
         
         return isSaid("1", 1)
         

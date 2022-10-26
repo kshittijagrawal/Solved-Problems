@@ -1,3 +1,4 @@
+[Discussion Post (created on 27/9/2022 at 2:23)](https://leetcode.com/problems/subarray-sum-equals-k/discuss/2747283/Python3-O(n)-Solution.)  
 <h2>560. Subarray Sum Equals K</h2><h3>Medium</h3><hr><div><p>Given an array of integers <code>nums</code> and an integer <code>k</code>, return <em>the total number of continuous subarrays whose sum equals to <code>k</code></em>.</p>
 
 <p>&nbsp;</p>

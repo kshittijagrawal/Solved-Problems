@@ -5,6 +5,7 @@ class Solution:
             diff = []
             for i in range(1, len(word)):
                 diff.append(ord(word[i]) - ord(word[i - 1]))
+                
             if not a:
                 a = diff
             elif not b:

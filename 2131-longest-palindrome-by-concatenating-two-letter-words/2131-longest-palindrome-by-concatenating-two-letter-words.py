@@ -20,4 +20,4 @@ class Solution:
         
         if odds:
             evens -= (odds - 1)
-        return pairs*4 + evens*2 + odds*2
+        return pairs * 4 + (odds + evens) * 2

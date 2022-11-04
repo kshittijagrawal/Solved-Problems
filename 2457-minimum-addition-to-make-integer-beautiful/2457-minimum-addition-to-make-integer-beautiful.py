@@ -8,10 +8,10 @@ class Solution:
                 num //= 10
             return s
         
-        res , itr = 0, 1
+        res , itr = 0, 10
         while calc_sum(n) > target:
-            newn = (n // (10 ** itr) + 1) * (10 ** itr)
+            newn = (n // itr + 1) * itr
             res += (newn - n)
             n = newn
-            itr += 1
+            itr *= 10
         return res

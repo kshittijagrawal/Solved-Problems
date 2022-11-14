@@ -15,7 +15,7 @@ class Solution:
                 if intLength % 2 == 0:
                     res.append(int(pre + pre[::-1]))
                 else:
-                    res.append(int(pre + pre[::-1][1:]))
+                    res.append(int(pre + pre[:-1][::-1]))
         return res
             
         

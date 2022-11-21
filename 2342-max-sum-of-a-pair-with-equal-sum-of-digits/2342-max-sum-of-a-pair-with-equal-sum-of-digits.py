@@ -15,6 +15,7 @@ class Solution:
                 if num > c[s][-1]:
                     c[s].pop()
                     c[s].append(num)
+            
             else:
                 c[s].append(num)
             

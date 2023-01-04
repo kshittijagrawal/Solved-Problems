@@ -11,13 +11,11 @@ class Solution:
                 return -1
             
             t3, r3 = divmod(container[key], 3)
-            if r3 == 0:
+            if r3 == 0: #for nums perfectly dividing 3
                 res += t3
             
-            if r3 == 1:
+            else: #for nums producing remainders 1 and 2
                 res += t3 + 1
-            
-            if r3 == 2:
-                res += t3 + 1
+
             
         return res
